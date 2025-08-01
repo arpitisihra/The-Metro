@@ -1,0 +1,428 @@
+{
+    "start": "step1",
+    "steps": {
+        "step1": {
+            "text": "It's just past midnight as you step into the last subway train. The platform behind you empties into silence. The doors slide shut, and the train pulls away.",
+            "choices": [
+                {
+                    "text": "Proceed",
+                    "next": "step2"
+                }
+            ]
+        },
+        "step2": {
+            "text": "The car hums with a few scattered passengers. Fluorescent lights flicker overhead. You glance at your phone... no signal. The next stop never comes.",
+            "choices": [
+                {
+                    "text": "Proceed",
+                    "next": "step3"
+                }
+            ]
+        },
+        "step3": {
+            "text": "The train passes by the station without stopping. You walk to the next car, but the door is jammed. A woman at the end of your car suddenly vanishes.",
+            "choices": [
+                {
+                    "text": "Break the glass and move ahead",
+                    "next": "step4"
+                },
+                {
+                    "text": "Sit quietly, hoping things fix themselves",
+                    "outcome": "You're swallowed by the seat as if the train itself claims you.",
+                    "next": "end_with_restart_from_3"
+                }
+            ]
+        },
+        "step4": {
+            "text": "You break through to the next car. A teenager stares at you and whispers, \"They come when it's quiet.\" He hands you a strange token before vanishing.",
+            "choices": [
+                {
+                    "text": "Take the token and keep moving",
+                    "next": "step5"
+                },
+                {
+                    "text": "Drop the token and return to your seat",
+                    "outcome": "You dissolve mid-step, your body becoming dust in the stale air. You're gone.",
+                    "next": "end_with_restart_from_3"
+                }
+            ]
+        },
+        "step5": {
+            "text": "Alone now, you pass through three cars each emptier than the last. The speakers crackle before announcing a station you've never heard of.",
+            "choices": [
+                {
+                    "text": "Pull the emergency brake",
+                    "next": "step6"
+                },
+                {
+                    "text": "Wait for the train to stop itself",
+                    "outcome": "The train slows just enough for shadowy arms to pull you into the tracks below.",
+                    "next": "end_with_restart_from_3"
+                }
+            ]
+        },
+        "step6": {
+            "text": "You pull the emergency brake. The train screeches, but doesn't stop - instead, the windows go pitch black. A distorted reflection of yourself moves its hand to shake hands with you.",
+            "choices": [
+                {
+                    "text": "Smash the window and jump outside",
+                    "next": "step7"
+                },
+                {
+                    "text": "Shake hands with it",
+                    "outcome": "Your hand is pulled in, followed by your body, leaving only a smear on the glass.",
+                    "next": "end_with_restart_from_3"
+                }
+            ]
+        },
+        "step7": {
+            "text": "You jump through the broken window into the dark tunnel, landing hard on concrete. The train vanishes behind you, soundless. A red glow flickers deeper in the tunnel.",
+            "choices": [
+                {
+                    "text": "Walk toward the red glow",
+                    "next": "step8"
+                },
+                {
+                    "text": "Stay put and wait for help",
+                    "outcome": "The darkness thickens, and unseen footsteps circle before dragging you away screaming.",
+                    "next": "end_with_restart_from_3"
+                }
+            ]
+        },
+        "step8": {
+            "text": "The red glow leads you to a forgotten platform, crumbling and overgrown. A scratched sign reads \"NO RETURN.\" You hear a distant announcement - in your own voice.",
+            "choices": [
+                {
+                    "text": "Follow the voice",
+                    "next": "step9"
+                },
+                {
+                    "text": "Climb up the emergency ladder",
+                    "outcome": "The ladder twists mid-climb, folding you into the wall like wet paper.",
+                    "next": "end_with_restart_from_3"
+                }
+            ]
+        },
+        "step9": {
+            "text": "The voice leads you to a mirror image of the train - same model, same car, but empty and still. A door opens with a hiss, inviting you in.",
+            "choices": [
+                {
+                    "text": "Enter the mirrored train",
+                    "next": "step10"
+                },
+                {
+                    "text": "Turn and run the other way",
+                    "outcome": "A faceless conductor appears behind you, lifts you effortlessly, and snaps your neck in silence.",
+                    "next": "end_with_restart_from_3"
+                }
+            ]
+        },
+        "step10": {
+            "text": "Inside the mirrored train, everything is reversed - signs, seats, even your watch ticks backward. A child sits alone, whispering, \"Come and sit with me.\"",
+            "choices": [
+                {
+                    "text": "Sit beside the child",
+                    "next": "step11"
+                },
+                {
+                    "text": "Run the opposite way",
+                    "outcome": "Each step forward ages you rapidly, until your bones give out with a final crack.",
+                    "next": "end_with_restart_from_3"
+                }
+            ]
+        },
+        "step11": {
+            "text": "The child points to a flickering door at the back of the mirrored train and says, \"Your stop is coming... but only if you can guess my name.\"",
+            "choices": [
+                {
+                    "text": "Guess a name",
+                    "outcome": "The child grows into a monster and rips you apart.",
+                    "next": "end_with_restart_from_3"
+                },
+                {
+                    "text": "Stay silent and walk through",
+                    "next": "step12"
+                }
+            ]
+        },
+        "step12": {
+            "text": "You emerge onto a platform lit by a single, swinging bulb. A payphone rings - loud, mechanical, urgent - though there's no cable attached.",
+            "choices": [
+                {
+                    "text": "Answer the phone",
+                    "next": "step13"
+                },
+                {
+                    "text": "Ignore it and keep walking",
+                    "outcome": "Each ignored ring slows your heartbeat until it stops completely.",
+                    "next": "end_with_restart_from_3"
+                }
+            ]
+        },
+        "step13": {
+            "text": "The voice on the phone says, \"Move towards the gate. Don't turn around, no matter what you hear.\" Behind you, footsteps echo and a wet breathing grows louder asking \"Do you need help?\"",
+            "choices": [
+                {
+                    "text": "Start walking forward",
+                    "next": "step14"
+                },
+                {
+                    "text": "Turn around and ask for help",
+                    "outcome": "Your eyes meet a blank, skinless face - and your body falls limp before you can scream.",
+                    "next": "end_with_restart_from_3"
+                }
+            ]
+        },
+        "step14": {
+            "text": "Ahead, an elevator door opens with a ding. Inside: mirrors on all sides, and a single button labeled \"-13.\"",
+            "choices": [
+                {
+                    "text": "Press the button",
+                    "next": "step15"
+                },
+                {
+                    "text": "Step out and run down the tunnel",
+                    "outcome": "The tunnel floor gives way, and you're swallowed by oily black water.",
+                    "next": "end_with_restart_from_3"
+                }
+            ]
+        },
+        "step15": {
+            "text": "The elevator drops - endlessly. The mirrors show versions of you panicking, crying, bleeding... but only one stares calmly back and moves its hand ahead to shake hands.",
+            "choices": [
+                {
+                    "text": "Shake hands",
+                    "next": "step16"
+                },
+                {
+                    "text": "Close your eyes until it stops",
+                    "outcome": "When you open them, you're in a padded metro car forever looping nowhere.",
+                    "next": "end_with_restart_from_3"
+                }
+            ]
+        },
+        "step16": {
+            "text": "The elevator stops immediately. The doors open to a decaying station with two telephones on the wall. One red and the other Green. Which one are you picking?",
+            "choices": [
+                {
+                    "text": "Red",
+                    "next": "step17"
+                },
+                {
+                    "text": "Green",
+                    "outcome": "The ink bleeds into your skin, and you vanish screaming into the headlines.",
+                    "next": "end_with_restart_from_3"
+                }
+            ]
+        },
+        "step17": {
+            "text": "On the red phone, you hear \"wait for me\". A shadowy conductor appears, his lantern flickering with whispers. \"You're not on the schedule,\" he growls, \"but maybe you can earn your stop.\"",
+            "choices": [
+                {
+                    "text": "Offer him your soul",
+                    "next": "step18"
+                },
+                {
+                    "text": "Offer him the token that child gave you",
+                    "outcome": "He stamps your chest with a rusted ticket puncher - your heartbeat ends on the last click.",
+                    "next": "end_with_restart_from_3"
+                }
+            ]
+        },
+        "step18": {
+            "text": "He laughs and says \"I don't need your hollow soul\" and leads you to a train car with two mannequins wearing your clothes, posed in scenes from your memories. He says \"Sit next to one of one of these\". Which?",
+            "choices": [
+                {
+                    "text": "Child mannequin",
+                    "outcome": "It turns to you and whispers, \"I hate children.\" Then bites your body off.",
+                    "next": "end_with_restart_from_3"
+                },
+                {
+                    "text": "Adult mannequin",
+                    "next": "step19"
+                }
+            ]
+        },
+        "step19": {
+            "text": "The mannequin stops the train. The lights cut out. In total darkness, you hear a recorded announcement loop: \"Mind the gap between memory and self. Mind the gap...\"",
+            "choices": [
+                {
+                    "text": "Shout \"Stop the train\"",
+                    "next": "step20"
+                },
+                {
+                    "text": "Cover your ears and wait",
+                    "outcome": "The announcement grows into a scream that bursts your eardrums, then your skull.",
+                    "next": "end_with_restart_from_3"
+                }
+            ]
+        },
+        "step20": {
+            "text": "Light returns. You're on a platform labeled \"Death.\" One train waits. Its destination sign flickers: \"You.\"",
+            "choices": [
+                {
+                    "text": "Board the train",
+                    "next": "step21"
+                },
+                {
+                    "text": "Turn and run back into the station",
+                    "outcome": "The platform extends endlessly behind you and something follows, just out of sight.",
+                    "next": "end_with_restart_from_3"
+                }
+            ]
+        },
+        "step21": {
+            "text": "Inside the train, every window shows different versions of your life - in some, you're rich; in others, dead. One window is blacked out.",
+            "choices": [
+                {
+                    "text": "Look into the windows for clues",
+                    "next": "step22"
+                },
+                {
+                    "text": "Smash windows and get out",
+                    "outcome": "The glass shatters into hands that drag you screaming into static.",
+                    "next": "end_with_restart_from_3"
+                }
+            ]
+        },
+        "step22": {
+            "text": "A voice on the intercom says, \"Choose your stop wisely. You only get one.\" The list of destinations scrolls endlessly until it lands on two: \"Home\" and \"Truth.\"",
+            "choices": [
+                {
+                    "text": "Choose \"Truth\"",
+                    "next": "step23"
+                },
+                {
+                    "text": "Choose \"Home\"",
+                    "outcome": "You arrive at your doorstep where your body hangs from the ceiling fan, still twitching.",
+                    "next": "end_with_restart_from_3"
+                }
+            ]
+        },
+        "step23": {
+            "text": "The train screeches to a halt. You're alone. The doors open to a staircase leading upward, inscribed with names - all yours, in dozens of languages.",
+            "choices": [
+                {
+                    "text": "Climb the staircase",
+                    "next": "step24"
+                },
+                {
+                    "text": "Jump off the platform to escape",
+                    "outcome": "You land in a void where lost passengers float, mouthing silent screams forever.",
+                    "next": "end_with_restart_from_3"
+                }
+            ]
+        },
+        "step24": {
+            "text": "At the top, a room full of mirrors awaits. Each reflection is slightly wrong - some smile when you don't, others blink out of sync.",
+            "choices": [
+                {
+                    "text": "Smash the mirror that doesn't mimic you",
+                    "next": "step25"
+                },
+                {
+                    "text": "Choose the smiling reflection to follow",
+                    "outcome": "It steps out and replaces you, leaving your soul trapped inside the glass.",
+                    "next": "end_with_restart_from_3"
+                }
+            ]
+        },
+        "step25": {
+            "text": "You enter a final hallway. At the end, a door labeled \"EXIT\" pulses with light. Behind you, footsteps multiply - fast, heavy, and inhuman.",
+            "choices": [
+                {
+                    "text": "Run for the exit",
+                    "next": "step26"
+                },
+                {
+                    "text": "Turn to face what's chasing you",
+                    "outcome": "The footsteps stop. A hand grabs your face. Your scream becomes the next train's horn.",
+                    "next": "end_with_restart_from_3"
+                }
+            ]
+        },
+        "step26": {
+            "text": "You burst through the EXIT door - only to find yourself back on the metro, but this time, it's frozen. Everyone aboard is a wax figure... except one slowly turning its head toward you.",
+            "choices": [
+                {
+                    "text": "Pretend to be a wax figure too",
+                    "next": "step27"
+                },
+                {
+                    "text": "Run past the figure to the next coach",
+                    "outcome": "It lunges, melting into a screaming mass that consumes you whole.",
+                    "next": "end_with_restart_from_3"
+                }
+            ]
+        },
+        "step27": {
+            "text": "The train begins to move again, but now the carriages are numbered backwards: 13, 12, 11... counting down. You're in Coach 6. The countdown is accelerating.",
+            "choices": [
+                {
+                    "text": "Jump off at Coach 1 before the countdown hits zero",
+                    "next": "step28"
+                },
+                {
+                    "text": "Stay put, hoping it's all a trick",
+                    "outcome": "The timer hits 0, and the train folds in on itself like paper, taking you with it.",
+                    "next": "end_with_restart_from_3"
+                }
+            ]
+        },
+        "step28": {
+            "text": "Coach 1 is empty but lit by red emergency lights. In the center: a single control lever and a note that reads, \"Pull only if you remember your name.\"",
+            "choices": [
+                {
+                    "text": "Pull the lever while chanting your full name",
+                    "next": "step29"
+                },
+                {
+                    "text": "Pull the lever without saying anything",
+                    "outcome": "The train resets, and you're born again as a crying infant on the ghost train.",
+                    "next": "end_with_restart_from_3"
+                }
+            ]
+        },
+        "step29": {
+            "text": "The train halts beside a mirror-still underground lake. A ferry with a veiled figure beckons. \"One last fare,\" it whispers.",
+            "choices": [
+                {
+                    "text": "Step onto the ferry",
+                    "next": "step30"
+                },
+                {
+                    "text": "Refuse and run along the tracks",
+                    "outcome": "The tunnel collapses into water, and something pulls you under, whispering your regrets forever.",
+                    "next": "end_with_restart_from_3"
+                }
+            ]
+        },
+        "step30": {
+            "text": "You awaken on the street above the station - it's dawn. The metro entrance is sealed, overgrown with vines. In your hand: a metro ticket stamped \"USED.\"",
+            "choices": [
+                {
+                    "text": "You survived!",
+                    "next": "end"
+                }
+            ]
+        },
+        "end_with_restart_from_3": {
+            "text": "The End. Would you like to try again?",
+            "choices": [
+                {
+                    "text": "Restart",
+                    "next": "step3"
+                }
+            ]
+        },
+        "end": {
+            "text": "The End. Would you like to play again?",
+            "choices": [
+                {
+                    "text": "Restart",
+                    "next": "step1"
+                }
+            ]
+        }
+    }
+}
